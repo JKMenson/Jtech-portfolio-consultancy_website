@@ -1,0 +1,261 @@
+.homepage-content{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/china.jpg);
+    background-size: cover;
+    margin-top: -6rem;
+    padding: 0;
+}
+
+.homepage-content > .homepage-first-card{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: large;
+    
+}
+.homepage-content h2{
+    padding: 12rem 0 0 0;
+  
+}
+.homepage-content > .homepage-first-card h2, h5{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+}
+
+.image-card{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+.image-card img{
+    height: 515px;
+    width: 300px;
+}
+
+.google-map{
+    text-align: center;
+}
+
+/*portfolio*/
+
+.portfolio-conent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4rem;
+    padding: 0 3rem 2rem;
+} 
+
+.portfolio-conent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+    
+} 
+
+ .portfolio-conent-card, .summary, .skills{
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    padding: 2rem;
+}
+
+.portfolio-conent > .portfolio-conent-card, .summary{
+    height: 400px;
+    width: 500px;
+    margin: 0;
+    padding: 2rem;
+}
+
+.portfolio-conent2 > .portfolio-conent-card, .skills{
+    margin-top: -5rem;
+}
+
+.skills{
+   margin-top: 0.8rem;
+   padding-bottom: 3rem;
+   height: auto;
+   
+}
+
+.summary h4{
+    padding-top: 2rem;
+}
+
+.summary p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    line-height: 1.7rem;
+    
+}
+
+.skills li{
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+
+
+
+@media(max-width:768px){
+    .homepage-content{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        padding: 1rem;
+       
+    }
+    .homepage-content > .homepage-first-card {
+        font-size: 0.8rem;
+        background-color: navy;
+        width: 100%;
+        height: 45vh;
+        padding: 0 2rem;
+        
+    }
+
+    .homepage-content h2{
+        padding: 2rem 1rem 1rem;
+        font-size: medium;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #more:hover{
+        background-color: #cea135;
+    }
+     
+    #more{
+        margin-bottom: 2rem;
+    }
+
+    .image-card{
+    margin-top: 2rem
+    }
+
+    /*portfolio*/
+    .portfolio-conent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .portfolio-conent2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+        
+    } 
+
+    .summary{
+        order: 1;
+        height: auto;
+        padding: 2rem 2rem 0 2rem;
+        width: 100%;
+        
+    }
+    
+    .summary p{
+        font-size: 1rem;
+    }
+    .summary h4{
+        padding-bottom: 0.5rem;
+    }
+    
+    .skills{
+        padding: 2rem 2rem;
+        height: auto;
+        width: 100%;
+        padding-bottom: 7rem;
+
+    }
+    .skills li{
+        font-size: 1rem;
+        line-height: normal;
+        
+    }
+   
+    .portfolio-conent > .portfolio-content-card{
+        padding-left: 1rem;
+        height: auto;
+        order: 2;
+        width: 100%; 
+    } 
+
+    .portfolio-conent > .portfolio-content-card img{
+        width: 300px; 
+        height: 280px;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    } 
+    
+    .portfolio-conent2 > .portfolio-content-card img{
+        width: 300px; 
+        height: 280px;
+        margin-top: -5rem;
+        margin-left: 1.5rem;
+    } 
+
+    
+    .portfolio-conent2 > .portfolio-content-card{
+        padding-left: 1rem;
+        order: 4;
+        width: 100%;
+        
+    } 
+}
+
+
+@media(max-width:1280px){
+    .portfolio-conent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .portfolio-conent2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+        
+    } 
+
+      
+    .portfolio-conent2 > .portfolio-content-card{
+        padding-left: 1rem;
+        order: 2;
+        width: 100%;
+        
+    } 
+    .portfolio-conent2 > .portfolio-content-card{
+        padding-left: 1rem;
+        order: 4;
+        width: 100%;
+    } 
+ 
+}
+
+
+
+
+
+

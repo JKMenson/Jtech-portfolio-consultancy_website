@@ -1,0 +1,156 @@
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10rem ;
+    background-color: aliceblue;
+    margin-top: -6rem;
+}
+form h4{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+form{
+    background-color: navy;
+    width: 400px;
+    height: 83vh;
+    padding: 3rem;
+}
+
+form textarea{
+    width: 300px;
+}
+
+
+form input,label,select{
+    width: 300px;
+    height: 40px;
+}
+
+
+form label{
+   color: white;
+}
+
+
+form button{
+    background-color: skyblue;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: green;
+}
+
+.card{
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.google-map{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+@media(max-width:768px){
+    .contact-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        height: auto;
+    }
+    form{
+        border-radius: 50px 25px;
+        order: 2;
+    }
+    
+    form h4{
+        text-decoration: underline;
+    }
+    form textarea{
+        height: 110px;
+    }
+    
+    .contact-card{
+        order: 1;
+        width: 380px;
+        margin-top: -2rem;
+        background-color: navy;
+        height: 60vh;
+        padding: 1.5rem 2.5rem;
+        border-radius: 50px 25px;
+    }
+
+    .contact-card h2{
+        color: white;
+        text-align: center;
+        font-size: medium;
+        padding: 0.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-card h3{
+        color: white;
+    }
+    
+    .contact-card img{
+        width: 300px;
+    }
+
+    .google-map iframe{
+        width: 400px;
+        padding: 0 1rem;
+   }
+
+}
+
+@media(max-width:1280px){
+    .contact-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+
+    } 
+    form{
+        border-radius: 50px 25px;
+        order: 2;
+    }
+    .contact-card{
+        order: 1;  
+    }
+
+    .contact-card img{
+        width: 300px;
+        
+    }
+
+    .contact-card h3{
+        font-size: medium;
+        margin-bottom: 2rem;
+        
+    }
+    .contact-card h2{
+        font-size: medium; 
+    }
+
+}
+    
+    
+
+

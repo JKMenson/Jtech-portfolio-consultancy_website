@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+.card{
+    padding: 6rem 0;
+    text-align: center;
+}
+
+
+#card{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#more{
+    background-color: navy;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+
+}
+#more a{
+    color: white;
+    text-decoration: none;
+
+}
